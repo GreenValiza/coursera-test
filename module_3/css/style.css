@@ -1,0 +1,48 @@
+body {
+	background-color: #F5DEB3;
+}
+ul.nav {
+	padding: 0;
+	margin: 0;
+	background-color: #F5DEB3;
+}
+nav#nav {
+	background-color: #DEB887;
+	border: 0px;
+	border-bottom: 1px solid black;
+	border-top: 1px solid #DEB887;
+	border-radius: 0;
+}
+a#brand {
+	font-size: 30px;
+	color: black;
+}
+a#brand:hover {
+	color: #F5DEB3;
+}
+div#buttons a{
+	text-align: center;
+}
+hr {
+	margin: 0;
+    border-color: black;
+}
+.navbar-default .navbar-collapse {
+	border-color: black;
+}
+p {
+	text-align: center;
+	font-weight: bold;
+}
+div.col-xs-12 {
+	background-color: #FFF8DC;
+	margin-bottom: 10px;
+}
+@media (max-width: 767px) {
+	nav#nav {
+		background-color: transparent;
+	}
+	div.navbar-header {
+		background-color: #DEB887;
+	}
+}
